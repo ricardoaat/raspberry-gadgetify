@@ -1,0 +1,8 @@
+[Unit]
+Description=Starts tethering service to connect to tatblet
+
+[Service]
+ExecStart=/home/xxx/tethering.sh
+
+[Install]
+WantedBy=multi-user.target
